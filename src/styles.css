@@ -3,6 +3,7 @@ body {
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   color: white;
   margin: auto;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -10,7 +11,7 @@ body {
 #paid-amount,
 #bill-label,
 #result-table {
-  display: none;
+  display: block;
 }
 
 #paid-amount {
@@ -45,18 +46,11 @@ button {
 }
 
 th {
-  width: 20vh;
-  text-align: left;
+  width: 40vh;
 }
 
 td {
-  padding: 0.4rem;
-}
-
-#result-table {
-  display: block;
-  margin: 0 30rem 0 30rem;
-  text-align: center;
+  padding: 0.5rem;
 }
 
 #output-id {
@@ -93,4 +87,43 @@ td {
   display: inline;
   font-weight: bold;
   margin: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+}
+.footer-class {
+  margin-top: 1rem;
+}
+
+.footer-class a {
+  padding: 0.5rem;
+}
+
+.footer-class a:hover {
+  padding: 0.5rem 2rem;
+}
+
+.footer-class ul {
+  padding: 1rem;
+}
+
+.footer-class li {
+  display: block;
+
+  margin: 1.5rem;
+}
+
+input {
+  width: 80%;
+}
+
+button {
+  width: 40%;
+}
+
+#result-table {
+  display: block;
+  margin: 0 0.4rem 0 0.4rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
