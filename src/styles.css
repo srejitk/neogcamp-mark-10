@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+#check,
+#paid-amount,
+#bill-label,
+#result-table {
+  display: none;
+}
+
+#paid-amount {
+  display: none;
+}
+h1,
+p {
+  padding: 2rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+input {
+  padding: 1rem;
+  width: 40%;
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 1rem;
+  width: 20%;
+  border-radius: 8px;
+  margin: auto;
+  color: black;
+  background: #fff176;
+}
+
+th {
+  width: 20vh;
+  text-align: left;
+}
+
+td {
+  padding: 0.4rem;
+}
+
+#result-table {
+  display: block;
+  margin: 0 30rem 0 30rem;
+  text-align: center;
+}
+
+#output-id {
+  padding: 2rem;
+}
+
+.footer-class {
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-class a {
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-class a:hover {
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff176;
+  background: #1a237e;
+  border-radius: 20px;
+}
+
+.footer-class ul {
+  padding: 1rem;
+}
+
+.footer-class li {
+  display: inline;
+  font-weight: bold;
+  margin: 2rem;
+}
